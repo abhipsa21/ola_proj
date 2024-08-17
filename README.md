@@ -1,7 +1,7 @@
 PROJECT TITLE - Ola Bike Ride Request Demand Forecast
 GOAL - The aim of the project is to make a forecast of the demand in Ola Bike Rental Services. The dataset contains 2 years data different features that are responsible for fluctuations in the customer ride request demand for training the model. This project predicts the upcoming nature of the customer request demand.
 
-WHAT HAVE I DONE
+WHAT HAVE I DONE:-
 
 Loading datasets
 Handling null values
@@ -37,18 +37,19 @@ Decision Tree - This algorithm works on the basis of creating tree structures to
 KNNs - * An algorithm assumes the similarity between the new case/data and available cases and put the new case into the category that is most similar to the available categories.*
 Random Forest - This algorithm works on the concept of emsemble learning.It used bagging technique to train multiple predictors on the same sampled instances to achieve a higher degree of accuracy.
 
-LIBRARIES NEEDED
+LIBRARIES NEEDED:-
 
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-datetime
-calender
+numpy,
+pandas,
+matplotlib,
+seaborn,
+scikit-learn,
+datetime,
+calender,
 pickle
 
-Conclusion
+Conclusion:-
+
 In this project we have performed a detailed analysis and visualization of the training dataset with different Exploratory Data Analysis techniques. Then a comaprative analysis of different Regressons have been done to predict the request demand of Bike Rental Services.After performing the model comparative analysis we can conclude that almost all the models had an accuracy above 99% except the Linear Regressor. The Hypertuned Random Forest Regressor gave best result with 99.995% accuracy
 
 
